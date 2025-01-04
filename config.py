@@ -14,7 +14,7 @@ ADMINS = int(os.environ.get("ADMINS", "6204800625"))
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://kabirsingh:harsh03h@harsh03.5jf8f.mongodb.net/") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://harsh03h:harsh03h@cluster0.5jf8f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = os.environ.get("DB_NAME", "RESTRICTION_SAVE_BOT")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
